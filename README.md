@@ -7,8 +7,10 @@ This javascript file retrieves every post title by the class '.entry-title' and 
 # How to use is?
 1. Use the class '.entry-title' in your HTML.
 2. Add this script to the footer of your document
-  ```<script src="widowfix.js"></script>
+  ```
+  <script src="widowfix.js"></script>
   ```
   or add to your theme setup function
-  ```	wp_enqueue_script( 'widowfix', get_template_directory_uri() . '/widowfix.js', array(), '0.0.1', true );
+  ```	
+  wp_enqueue_script( 'widowfix', get_template_directory_uri() . '/widowfix.js', array(), '0.0.1', true );
   ```

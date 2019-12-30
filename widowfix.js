@@ -17,8 +17,8 @@ headlines.forEach(headline => {
     }
     
     const wife = text.pop();
-    const husband = text.pop();
-    const couple = husband + '&nbsp;' + wife;
+    const partner = text.pop();
+    const couple = partner + '&nbsp;' + wife;
     text.push( couple );
     text = text.join(' ');
 

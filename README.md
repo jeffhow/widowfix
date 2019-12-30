@@ -10,7 +10,9 @@ This javascript file retrieves every post title by the class '.entry-title' and 
   ```html
   <script src="widowfix.js"></script>
   ```
-  or add to your theme setup function
+  
+     or add to your theme setup function
+     
   ```php
-  wp_enqueue_script( 'widowfix', get_template_directory_uri() . '/widowfix.js', array(), '0.0.1', true );
+  wp_enqueue_script( 'widowfix', get_template_directory_uri() . '/js/widowfix.js', array(), '0.0.1', true );
   ```
